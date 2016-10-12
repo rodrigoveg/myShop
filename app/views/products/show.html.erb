@@ -1,0 +1,23 @@
+<div class="row">
+  <div class="col-md-12">
+    <label for="">Name</label>
+    <%= @product.name %>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <label for="">Description</label>
+    <%= @product.description %>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <label for="">Price</label>
+    <%= @product.price %>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <%= link_to 'Back', products_path, class: 'btn btn-default' %>
+  </div>
+</div>
