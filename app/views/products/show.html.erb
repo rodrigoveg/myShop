@@ -18,6 +18,11 @@
 </div>
 <div class="row">
   <div class="col-md-12">
+    <label for="">Category</label>
+    <%= @product.category.name %>
+  </div>
+  <div class="row">
+  <div class="col-md-12">
     <%= link_to 'Back', products_path, class: 'btn btn-default' %>
     <%= link_to 'destroy', product_path(@product), class: 'btn btn-danger', method: :delete%>
   </div>
